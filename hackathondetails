@@ -1,0 +1,677 @@
+Skip to content
+CODE OLYMPICS
+How It Works
+Challenges
+Judging
+Timeline
+Prizes
+Judges
+FAQ
+Join Discord
+// 66 teams competed in 2025 — sequel incoming
+
+Code Olympics 2026
+4D Global Challenge
+The Elite Constraint Programming Championship
+
+The second edition of Code Olympics. In 2025, 66 teams competed with a 3D constraint system. For 2026, we're adding a 4th dimension: your assigned programming language.
+
+Summer 2026 · Online · Free · $2,000 in prizes
+
+Generate My ChallengeAvailable during hackathon hours
+Join Discord
+01
+Where Real Programming Skills Meet Athletic Discipline
+In 2025, Code Olympics stripped away your frameworks, your libraries, and your safety nets. 66 teams got three random constraints and 72 hours to prove they could actually code. 12 industry judges from companies like Amazon, Oracle, Meta, and Cisco evaluated 230+ submissions.
+
+It worked. Engineers discovered what they could really build when the crutches disappeared. A terminal multimedia tool. A zero-dependency security scanner. A video-to-knowledge-base converter. All built from scratch, under constraints, in 72 hours.
+
+For 2026, we're adding a fourth dimension: your programming language is no longer your choice.
+
+The generator now assigns your language alongside your core constraint, line budget, and project domain. You might get Python with 50 lines. Rust with no imports. JavaScript with 8 variables. Go with a single function.
+
+The question is no longer “can you code under constraints?” It's “can you code under constraints in a language you didn't choose?”
+
+Most engineers have one, maybe two languages they're truly comfortable in. Take that comfort away and what's left is the raw skill — algorithmic thinking, problem decomposition, architectural instinct — that separates competent developers from exceptional ones.
+
+72 hours. Four constraints. One question: what can you actually build?
+
+02
+The Polyglot Problem Nobody Admits
+The software industry has a dirty secret that goes deeper than dependency addiction: most developers can't function outside their primary language.
+
+Modern hiring optimises for language-specific expertise. Job postings demand “5+ years of TypeScript” or “senior Go engineer.” Teams silo around language ecosystems. Engineers spend entire careers in one runtime, one package manager, one set of idioms.
+
+The result: a generation of specialists who struggle the moment they're dropped into unfamiliar syntax. A Python engineer who can't reason about memory. A JavaScript developer who's never handled a pointer. A Java architect who's never written a script without a class hierarchy.
+
+This shows up every time someone needs to debug a production issue in a service written by another team. Every time a project requires bridging two ecosystems. Every time a senior engineer can't read the code in their own company's monorepo because it's in the “other” language.
+
+Code Olympics 2025 tested whether you could build without libraries — with a 3D constraint system. Code Olympics 2026 adds the 4th dimension: your programming language is no longer your choice.
+
+03
+How It Works
+01
+Get Your Challenge
+30 seconds
+Click the generator. Get 4 random constraints: core limitation, line budget, project domain, and assigned language. Re-roll up to 3 times.
+
+02
+Build Something Real
+72 hours
+Create a working application that solves a real problem, follows all four constraints exactly, and doesn't crash when users do stupid things.
+
+03
+Submit and Win
+Done
+Upload your code. We verify constraints, test functionality, check language compliance, and award prizes. $2,000 total pool.
+
+04
+The 4D Challenge System
+Every participant receives a unique combination from four constraint categories. Over 5,000 possible combinations — no two competitors face identical challenges.
+
+D1
+Core Constraint
+What You Can't Use
+
+No-Import Rookie
+Only built-in functions, no libraries
+
+Few-Variable Hero
+Maximum 8 variables in entire program
+
+Single-Function Master
+Only 1 function allowed (plus main/entry point)
+
+Error-Proof Coder
+Program never crashes, handles all inputs gracefully
+
+One-Loop Warrior
+Maximum 1 loop in entire program
+
+Short-Name Ninja
+Variable names maximum 3 characters
+
+Fast-Response Builder
+Must load/respond in under 2 seconds
+
+Simple-State Creator
+Program has exactly 2–3 different modes/states
+
+D2
+Line Budget
+How Much You Can Write
+
+Tiny Scripter
+50 lines maximum
+
+Mini Builder
+100 lines maximum
+
+Compact Coder
+150 lines maximum
+
+Standard Maker
+200 lines maximum
+
+Detailed Creator
+300 lines maximum
+
+Feature-Rich Dev
+400 lines maximum
+
+Professional Builder
+500 lines maximum
+
+Enterprise Creator
+650 lines maximum
+
+D3
+Project Domain
+What You Build
+
+Simple Games
+Tic-tac-toe, hangman, word games, puzzle solvers
+
+Basic Tools
+Calculators, converters, generators, encoders
+
+Text Processing
+Editors, analysers, formatters, search tools
+
+Number Crunching
+Math tools, statistics, algorithms, solvers
+
+File Management
+Organisers, readers, processors, diff tools
+
+Quiz Systems
+Trivia, flashcards, learning tools, assessments
+
+Visual Creation
+ASCII art, charts, graphics, terminal UIs
+
+Mini Databases
+Records, inventory, contacts, key-value stores
+
+Data Processing
+Parsers, transformers, pipeline tools, validators
+
+System Utilities
+Monitors, cleaners, automation, health checks
+
+D4
+Language
+What You Write It In
+
+Python
+Readable, versatile, forgiving — but can you optimise it?
+
+JavaScript
+Async-first, prototype-based — comfort zone for many, trap for some
+
+TypeScript
+JavaScript's disciplined sibling — types help, but they also constrain
+
+Go
+Simple by design, verbose by nature — no generics shortcuts, no magic
+
+Rust
+The compiler is your strictest judge — ownership, lifetimes, no hand-waving
+
+Ruby
+Elegant and expressive — but can you think in blocks and duck typing?
+
+C
+No safety net, no garbage collector, no mercy — raw memory, raw power
+
+Java
+The enterprise standard — can you build something small in a language designed for large?
+
+Bash
+Pipes, redirects, and string manipulation — the ultimate scripting constraint
+
+PHP
+The language everyone underestimates — prove them wrong
+
+Language assignment is weighted by difficulty. Getting Rust with 50 lines is harder than getting Python with 500 lines. Our scoring system accounts for this — judges evaluate submissions relative to what's actually possible within each constraint combination. The same output in a harder language scores higher, and teams who draw tougher combinations aren't penalised for it.
+
+05
+Challenge Examples
+Understanding the constraint combinations becomes clearer through specific examples.
+
+The Polyglot Minimalist
+No-Import Rookie
+Mini Builder (100 lines)
+Basic Tools
+Rust
+Build a unit converter using only Rust's standard library in exactly 100 lines. No crates. No external dependencies. Handle multiple conversion categories with Rust's ownership model breathing down your neck.
+
+WHY IT'S HARD
+
+Rust without crates is a different beast. String handling alone will eat half your line budget. No serde, no itertools, no anyhow — just raw standard library and the borrow checker breathing down your neck.
+
+The Unfamiliar Territory
+Few-Variable Hero (8 vars)
+Standard Maker (200 lines)
+Simple Games
+Ruby
+Create an engaging game using maximum 8 variables in Ruby — a language most systems engineers have never touched. Object-oriented by nature, but you're variable-starved.
+
+WHY IT'S HARD
+
+Ruby's idioms reward many small objects with instance variables. Eight variables forces a completely different mental model in a language that fights that constraint.
+
+The Shell Architect
+Error-Proof Coder
+Compact Coder (150 lines)
+File Management
+Bash
+Build a file organiser in Bash that never crashes, handles all edge cases — filenames with spaces, special characters, missing directories, permission errors — in 150 lines of shell script.
+
+WHY IT'S HARD
+
+Error handling in Bash is manual and verbose. No try-catch, no type system — just exit codes and prayer. Making shell scripts truly robust is a rare skill most developers avoid entirely.
+
+The Enterprise Minimalist
+Single-Function Master
+Detailed Creator (300 lines)
+Mini Databases
+Java
+Build a working key-value store in Java with only one function (plus main). Java's entire design philosophy revolves around class hierarchies and method decomposition. One function breaks everything Java stands for.
+
+WHY IT'S HARD
+
+Java without multiple methods is like running without legs. You'll discover how much of Java's ecosystem assumes you'll decompose endlessly.
+
+06
+Why This Competition Tests Real Skills
+Most coding competitions evaluate algorithm memorisation. Code Olympics assesses practical engineering capabilities that matter in professional environments:
+
+Language Adaptability. Can you produce working software in a language you didn't choose? In real teams, you read and debug code in languages that aren't your primary one every week.
+
+Dependency Independence. Can you build functional software without external libraries? When constraints appear — embedded systems, legacy environments, air-gapped networks — engineers who understand underlying algorithms ship while others stall.
+
+Resource Consciousness. Can you write efficient code under memory, line, and variable constraints? Every production system has budgets.
+
+Error Resilience. Can you handle edge cases across language paradigms? Exception handling in Python, Result types in Rust, error returns in Go — each language has different failure philosophies.
+
+Code Organisation. Can you maintain readability under severe limitations in an unfamiliar syntax? Clean code under pressure, in a language that isn't yours, is the ultimate engineering test.
+
+07
+Who Should Participate
+All skill levels welcome. The constraint generator produces a wide range of difficulty.
+
+Professional Developers
+Seeking to validate core programming competencies beyond framework and language-specific knowledge. Strip away the tools you depend on and find out what remains.
+
+Polyglot Engineers
+Want to prove their adaptability isn't just a resume bullet point. Pick up an unfamiliar language under pressure and deliver something that actually works.
+
+CS Students
+Looking to develop practical skills that complement academic learning. Real constraints force the kind of problem-solving no textbook can teach.
+
+Self-Taught Programmers
+Wanting to benchmark their abilities against structured challenges. No degrees required — just prove you can solve problems under constraints that level the playing field.
+
+Engineering Teams
+Considering this as a professional development exercise in language flexibility. A shared challenge that reveals how your team thinks when the familiar tools are gone.
+
+Single-Language Specialists
+Curious about what happens when their comfort zone disappears. Ten years of Python won't help when you draw Rust with 100 lines and no imports.
+
+Competitive Programmers
+Tired of the same algorithmic puzzles on every platform. Code Olympics tests a different muscle — creativity and adaptability under constraints, not just speed.
+
+Tech Leads & Mentors
+Looking for a fresh way to evaluate raw problem-solving talent. Watch how candidates think when they can't lean on familiar patterns or favourite libraries.
+
+Anyone
+Who wants to answer honestly: how much of my skill is me, and how much is my language? Enter with an open mind and find out what you're really made of.
+
+08
+Deliverables
+Functional Software. It works reliably in the assigned language. Users can operate it without encountering broken features or undefined behaviour.
+
+Constraint Compliance. Follow all 4 generated constraints exactly. Automated systems verify adherence — including language verification. No transpilers, no code generators.
+
+Error Handling. Robust input validation and graceful failure handling. No crashes from user mistakes. “I don't know how this language handles errors” is not an excuse.
+
+Real Utility. Addresses genuine problems. Not a toy. Not a demo. Something someone would use.
+
+You'll submit:
+
+→
+Source code (public GitHub repo)
+→
+Brief README explaining the approach and language-specific challenges
+→
+Live link, executable demo, or video walkthrough
+→
+Honest self-assessment: where does the language unfamiliarity show?
+09
+Evaluation Criteria
+Language difficulty is not a formal point multiplier — it's a philosophical lens. Judges always ask: how impressive is this result given the language that produced it?
+
+Functionality & Reliability
+30%
+Core features work consistently, user experience is intuitive. The application does what it claims and handles edge cases.
+
+Constraint Mastery
+25%
+Creative solutions within all four imposed limitations. Efficient resource usage. Did the constraints produce interesting engineering decisions?
+
+Language Adaptation
+20%
+How well did you adapt to your assigned language? Idiomatic usage scores higher than fighting the language's philosophy.
+
+Code Quality
+15%
+Clean implementation, readable structure, maintainable architecture. Comments that explain why, not what.
+
+Innovation
+10%
+Novel approaches to constraint challenges. Unexpected functionality achievements. Did you surprise the judges — or yourself?
+
+10
+Bonus Challenges
+Optional. Quality over quantity — nail one rather than rushing through several.
+
++5
+HIGH VALUE
+Rosetta Stone
+After completing your submission, implement the same solution in a second language (not your assigned one) and include both versions. Show how the same problem produces different architectures in different languages.
+
++5
+HIGH VALUE
+Cross-Constraint Combo
+Your solution demonstrates that two or more of your constraints created an emergent design pattern that wouldn't exist without their intersection. Document the moment where constraints collided and produced something unexpected.
+
++3
+Zero Warnings
+Your code compiles and runs with zero warnings, zero linting errors, and passes the language's standard style checker. Clippy for Rust. ESLint for JavaScript. Pylint for Python. Clean room.
+
++3
+Language Love Letter
+Include a section in your README explaining what you learned about your assigned language that you didn't know before. Genuine reflection, not filler. Judges reward honesty.
+
+11
+Timeline
+All times UTC. Sleep optional, caffeine recommended.
+
+Pre-Event
+May 1, 2026
+Registration Opens
+Sign up on the platform and join the Discord community. Once you're in, you'll get access to the rules channel, FAQ, and can start forming ideas with other participants. No commitment yet — just get your foot in the door.
+
+May 26, 2026
+Team Formation
+Find teammates on Discord or register as solo. Once you're set, you'll be ready to hit the ground running when the hackathon starts.
+
+Competition — 72h
+May 29, 2026 @ 10:00 UTC
+Kickoff & Hacking Begins
+Generate your 4D constraint combination — language, paradigm, theme, and wildcard. You get up to 3 re-rolls if you don't like what you see, so choose wisely. Once you lock in, the 72-hour clock starts and it's time to build.
+
+Jun 1, 2026 @ 10:00 UTC
+Code Freeze & Submissions Due
+Time's up — push your repo and submit the form before the cutoff. Final commits. All project submissions must be in. Late submissions are automatically rejected.
+
+Post-Event
+Jun 1–Jun 10, 2026
+Judges Evaluate Projects
+Judges review and score all submissions asynchronously. Language-specific experts are consulted to evaluate idiomatic quality, and each project is scored across all rubric dimensions. Expect thorough, constructive feedback.
+
+Jun 11, 2026
+Winners Announced
+Results are revealed live on Discord with full score breakdowns. Prize money is distributed within 14 days via the payment method you specified during registration. Top projects will also be featured on the site.
+
+Jun 11–Jun 17, 2026
+Community Voting
+All registered participants can vote for Community Choice — one project, one vote. Browse the submissions gallery, try out the projects, and pick the one that impressed you most. Voting stays open for one week.
+
+Jun 18, 2026
+Community Choice Winner Announced
+The people's champion is crowned. This award is separate from the expert judging, so even if you didn't place in the main rankings, the community might still choose your project as the standout.
+
+12
+Prizes
+$2,000 total prize pool. Paid via PayPal or bank transfer within 14 days.
+
+1st PLACE
+Grand Champion
+Outstanding overall solution demonstrating exceptional constraint mastery, language adaptation, functionality, and innovation.
+
+$1,000
+2nd PLACE
+Technical Excellence
+$400
+Superior code quality, architectural decisions, and creative constraint problem-solving.
+
+3rd PLACE
+Third Place
+$200
+Stands out with originality. Code that makes a difference with constraints that seemed impossible.
+
+COMMUNITY
+Community Choice
+$400
+Participant-voted award for the most useful, impressive, or inspiring solution.
+
+CATEGORY
+Category Winner
+TBA
+Best solution within a specific constraint category. Multiple winners possible — one per track if quality threshold is met.
+
+SPONSORS
+
+Additional prizes from our partners
+We're finalising partnerships with sponsors who share our mission. Expect bonus prize categories, tooling credits, and exclusive perks — details dropping soon.
+
+Interested in sponsoring? Reach out at hello@raptors.dev
+
+13
+Judges
+Expert evaluation by industry leaders.
+
+Your submission will be assessed by Hackathon Raptors Fellows — recognised professionals who have demonstrated sustained excellence in engineering and technology over at least five years. For 2026, the judging panel includes language-specific specialists who evaluate idiomatic usage in each assigned language.
+
+Bhanu Kiran Kaithe
+Bhanu Kiran Kaithe
+Engineering Manager DevOps at Stellar Cyber
+
+Stellar Cyber
+
+I am an Engineering Manager DevOps at Stellar Cyber, where I lead a multinational team responsible for operating and scaling over 300 customer data platforms that ingest billions of security events daily for an AI-driven OpenXDR…
+
+LinkedIn
+Harender Bisht
+Harender Bisht
+Solution Architect
+
+Solution Architect with 10+ years of experience across IT, finance, and reinsurance, specializing in enterprise architecture, artificial intelligence, data analytics, and scalable solution design.
+
+LinkedIn
+Makarand Gujarathi
+Makarand Gujarathi
+Senior Software Engineer
+
+Walmart
+
+Senior Software Engineer with proven expertise architecting and scaling mission-critical systems handling hundreds of thousands of concurrent users.
+
+LinkedIn
+Rohit Singh Raja
+Rohit Singh Raja
+Technology and quality engineering leader
+
+Principal Quality Engineer at Clinical Ink
+
+Rohit Singh Raja is a technology and quality engineering leader with 10+ years of experience driving large-scale, high-impact platforms across clinical research and healthcare.
+
+LinkedIn
+Ronak Patel
+Ronak Patel
+Senior Engineering Manager at American Family Insurance
+
+American Family Mutual Insurance
+
+Ronak Patel is Senior Engineering Manager at American Family Insurance, where he leads platform engineering teams operating cloud-native API platforms that process hundreds of millions of annual transactions at 99.98% availability.
+
+LinkedIn
+Anatolii Blazhkovskii
+Anatolii Blazhkovskii
+Software development expert specializing in high-load e-commerce platforms with large-scale architecture and extreme performance requirements.
+
+LinkedIn
+Dan Zabrotski
+Dan Zabrotski
+Entrepreneur and founder of Speekl
+
+Speekl
+
+Entrepreneur and founder of Speekl. Senior Software Engineer with 8+ years of experience, an open-source contributor, and an author of open-source libraries. Recognized for extraordinary ability in the United States.
+
+LinkedIn
+Elias Tounzal
+Elias Tounzal
+Software Engineer at Quaestor Technologies
+
+Quaestor Technologies, Inc.
+
+I am a Software Engineer at Quaestor Technologies, Inc., with 9+ years of experience building scalable data systems, AI-driven analytics platforms, and enterprise web applications across fintech and venture capital.
+
+LinkedIn
+Hemanth Kumar Padakanti
+Hemanth Kumar Padakanti
+Senior Data Infrastructure engineer
+
+Angi Inc
+
+Senior Data Infrastructure engineer With 10 Plus Years of experience at Angi specializing in large-scale data platforms: Python and PySpark on AWS Glue, Iceberg tables on S3, and event-driven orchestration (e.g. Lambda).
+
+LinkedIn
+Rohan Bhosle
+Rohan Bhosle
+Principal Software Engineering Manager within Microsoft Azure
+
+Microsoft
+
+Rohan Bhosle is a Principal Software Engineering Manager within Microsoft Azure with more than 19+ years of experience leading deeply technical work in hyperscale cloud networking, distributed control planes, and large-scale AI…
+
+LinkedIn
+Shyam Kumar Palani
+Shyam Kumar Palani
+Director of Software Engineering at Lowe’s
+
+Lowe's Companies Inc
+
+Director of Software Engineering at Lowe’s with 13+ years of experience in building large-scale distributed systems, reliability, and platform engineering.
+
+LinkedIn
+Ummer Khan Asif Bangalore Ghouse khan
+Ummer Khan Asif Bangalore Ghouse khan
+Seasoned Manager
+
+HCL TECH
+
+Seasoned Manager with 20+ years of experience at a senior-level leadership—Spanning IT infrastructure management, system operations, service management, Project and Program Management.
+
+LinkedIn
+Full panel
+
+
+Abhinav Vedanbhatla
+Abhinav Vedanbhatla
+Andrei Miloserdov
+Andrei Miloserdov
+Amazon
+
+Andrei Nikulin
+Andrei Nikulin
+Artem Miloserdov
+Artem Miloserdov
+Divya Jain
+Divya Jain
+GOPI MAHESH VATRAM
+GOPI MAHESH VATRAM
+Microsoft
+
+ishan shah
+ishan shah
+PayPal
+
+Iusup Izripov
+Iusup Izripov
+T-bank
+
+Leonid Kulikov
+Leonid Kulikov
+Snap Inc.
+
+Mikita Hanusenka
+Mikita Hanusenka
+EPAM Systems
+
+Mohan Gandhi
+Mohan Gandhi
+Amazon Web Services
+
+Nikita Vasilev
+Nikita Vasilev
+BMA
+
+Nikolay Aleshin
+Nikolay Aleshin
+Prajwal Pitlehra
+Prajwal Pitlehra
+Monaco Research
+
+Pramodini Girish Mahendrakar
+Pramodini Girish Mahendrakar
+Robert Bosch LLC North America
+
+Raghunadha Reddi Dornala
+Raghunadha Reddi Dornala
+Ravi Sastry Kadali
+Ravi Sastry Kadali
+Rohit Mishra
+Rohit Mishra
+Google
+
+Sanchet Pachpute
+Sanchet Pachpute
+New York Life
+
+Sanketh Balakrishna
+Sanketh Balakrishna
+Datadog
+
+Saurav Sharma
+Saurav Sharma
+Walmart
+
+Sreekanth Reddy Panyam
+Sreekanth Reddy Panyam
+Apple
+
+Swastik Ghosh
+Swastik Ghosh
+Tirumala Ashish Kumar Manne
+Tirumala Ashish Kumar Manne
+Optum
+
+Tufan Kilicaslan
+Tufan Kilicaslan
+CodeMega Solutions Inc.
+
+Our interdisciplinary panel brings cross-domain expertise spanning systems engineering, distributed computing, and applied language theory. We're currently onboarding additional T-shaped evaluators from our partners — practitioners with deep vertical specialisation and broad lateral fluency. More names dropping soon. Interested in joining the panel? Drop us a line at hello@raptors.dev
+
+14
+Generate Your Challenge
+Our system creates personalised programming challenges by analysing constraint balance across all four dimensions. You get up to 3 spins — then choose the combination you feel most comfortable working with.
+
+Generate My ChallengeAvailable during hackathon hours
+15
+FAQ
+Do I need to know all 10 languages?
+What if I get a language I've literally never touched?
+Can I use language-specific package managers?
+Do I need a team?
+Can I use AI tools?
+What skill level do I need?
+How strict is language verification?
+Can I use the language's standard library?
+What counts as a "line" for the Line Budget?
+Who owns my code?
+How does the competition work?
+16
+Why the 4th Dimension Matters
+The first Code Olympics proved that most developers can't build without dependencies. That was a useful revelation. But it left one safety net intact: the language you know best.
+
+Language familiarity is the last crutch. It's the comfort zone that lets you pattern-match instead of think. When you write Python, half your brain is on autopilot — you know the idioms, you know the stdlib, you know where the pitfalls are. Remove that, and you're back to first principles.
+
+That's where real engineering lives. Not in knowing that Python's list comprehensions are fast, but in understanding why iteration patterns matter. Not in knowing Go's goroutine syntax, but in understanding concurrency models. Not in knowing Rust's borrow checker rules, but in understanding memory safety as a concept.
+
+The best engineers we've met can pick up any language in a week and ship production code in a month. They think in abstractions, not syntax. Code Olympics 2026 tests for exactly this.
+
+The constraint is the point. The 4th Dimension is the proof.
+
+“The question isn't whether you can configure popular frameworks or write fluent code in your favourite language. The question is: when constraints force you back to fundamentals in a language you didn't choose, what can you create?”
+
+Ready to Discover What You Can Really Build?
+The 4D Challenge System. Over 5,000 unique combinations. No framework expertise provides advantage. No language preference provides advantage.
+
+Generate My ChallengeAvailable during hackathon hours
+Join Discord
+CODE OLYMPICS 2026
+Summer 2026 · Online · Free · $2,000 in prizes
+
+2025 Edition · 2026 Edition
+
+Organised by Hackathon Raptors
+
+Community Interest Company — 15557917
+
+Office 2131, 182-184 High Street North, East Ham, London, E6 2JA, United Kingdom
+
+© 2026 Hackathon Raptors
